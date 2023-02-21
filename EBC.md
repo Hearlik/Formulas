@@ -1,7 +1,8 @@
 # EBC-Formula
 
 $$ {EBC}_{total} = \left( \sum_{i=1}^n x_i * {EBC}_i \right) * {Plato \over 10} + {t_{boiling} \over 60} $$
-$$ {EBC}_{total} = \left( {\sum_{i=1}^n m_i * {EBC}_i} \over m_{total} \right) * {Plato \over 10} + {t_{boiling} \over 60} $$
+
+$$ {EBC}_{total} = \left( {{1 \over m_{total}} \sum_{i=1}^n m_i * {EBC}_i} \right) * {Plato \over 10} + {t_{boiling} \over 60} $$
 
 | Variable | Unit | Description |
 | :---: | :---: | --- |
@@ -10,4 +11,3 @@ $$ {EBC}_{total} = \left( {\sum_{i=1}^n m_i * {EBC}_i} \over m_{total} \right) *
 | $x_i$ | % | amount of malt i | 
 | $m_i§ | kg | amount of malt i |
 | $m_{total}$ | kg | total amount of malt used |
-
