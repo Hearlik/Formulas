@@ -11,3 +11,8 @@ $$ {EBC}_{total} = \left( {{1 \over m_{total}} \sum_{i=1}^n m_i * {EBC}_i} \righ
 | $x_i$ | % | amount of malt i | 
 | $m_i§ | kg | amount of malt i |
 | $m_{total}$ | kg | total amount of malt used |
+
+# EBC color table (german)
+
+![table_1](ressources/EBC_rgb_1_german.jpg)
+![table_2](ressources/EBC_rgb_2_german.jpg)
