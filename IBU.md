@@ -1,6 +1,6 @@
 # IBU-Formula
 
-$$ {IBU}_i = {m_i * \alpha_i * 10 * {1 \over V}} * \left( 1 - e^{-0.04 * \left( t_{i, boiling} + {ISO_{coeff}} \right)} \right) * 1.65 * 0.000125^{0.004 * Plato} * c_{time} * c_{type} $$
+$$ {IBU}_i = {m_i * \alpha_i * c_{i, time} * c_{i, type}} * \left( 1 - e^{-0.04 * \left( t_{i, boiling} + {ISO_{coeff}} \right)} \right) * {16.5 \over V} * 0.000125^{0.004 * Plato} $$
 
 $$ {IBU}_{total} = \sum_{i=1}^n {IBU}_i $$
 
@@ -12,8 +12,8 @@ $$ {IBU}_{total} = \sum_{i=1}^n {IBU}_i $$
 | Plato | °P | density of the beer wort |
 | $t_{i, boiling}$ | min | boiling time of hop i |
 | ${ISO_{coeff}}$ | min | extension factor to the regular boiling time |
-| $c_{time}$ | | time factor = $\left(t_{i, boiling} < t_{boiling, total} - 15 min \right)$ ? 1.1 : 1.0 | 
-| $c_{type}$ | | type factor = 1.1 if hop pellets , 1.0 if hop cones |
+| $c_{i, time}$ | | time factor = $\left(t_{i, boiling} < t_{boiling, total} - 15 min \right)$ ? 1.1 : 1.0 | 
+| $c_{i, type}$ | | type factor = 1.1 if hop pellets , 1.0 if hop cones |
 
 ### Isomerisation-coefficient
 
