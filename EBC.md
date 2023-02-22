@@ -8,8 +8,8 @@ $$ {EBC}_{total} = \left( {{1 \over m_{total}} \sum_{i=1}^n m_i * {EBC}_i} \righ
 | :---: | :---: | --- |
 | $t_{boiling}$ | min | total boiling time of the beer wort |
 | Plato | °P | density of the beer wort |
-| $x_i$ | % | amount of malt i | 
-| $m_i$ | kg | amount of malt i |
+| $x_i$ |  | amount of malt i $\left( \sum x_i = 1 \right)$ | 
+| $m_i$ | kg | amount of malt i $\left( \sum m_i = m_{total} \right)$ |
 | $m_{total}$ | kg | total amount of malt used |
 
 # Conversions
