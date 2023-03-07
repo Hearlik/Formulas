@@ -1,6 +1,6 @@
-# Collection of brewing related formulas
+# Collection of brewing related Equation
 
-- [EBC-Formula](EBC.md)
+- [EBC-Equation](EBC.md)
 - [Calculate the total amount of malt needed](MaltAmount.md)
-- [IBU-Formula](IBU.md)
-- [Alcohol-Formula](Alcohol.md)
+- [IBU-Equation](IBU.md)
+- [Alcohol-Equation](Alcohol.md)

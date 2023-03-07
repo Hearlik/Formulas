@@ -1,4 +1,4 @@
-# EBC-Formula
+# EBC-Equation
 
 $$ {EBC}_{total} = \left( \sum_{i=1}^n x_i * {EBC}_i \right) * {Plato \over 10} + {t_{boiling} \over 60} $$
 

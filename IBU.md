@@ -1,4 +1,4 @@
-# IBU-Formula
+# IBU-Equation
 
 $$ {IBU}_i = {m_i * \alpha_i * c_{i, time} * c_{i, type}} * \left( 1 - e^{-0.04 * \left( t_{i, boiling} + {ISO_{coeff}} \right)} \right) * {16.5 \over V} * 0.000125^{0.004 * Plato} $$
 
