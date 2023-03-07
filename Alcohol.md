@@ -4,7 +4,7 @@ $$ {RS}_{actual} = 0.1808 * Plato + 0.8192 * {RS}_{apparent} $$
 
 $$ {ABW}_{ferm} = {Plato - {RS}_{actual} \over 2.0665 - 0.010665 * Plato} $$
 
-$$ {ABV}_{ferm} = {1 \over 0.795} * {Alcohol}_{ferm} \left[ Weight\% \right] $$
+$$ {ABV}_{ferm} = {1 \over 0.795} * {ABW}_{ferm} $$
 
 $$ {ABV}_{total} = {ABV}_{ferm} + {ABV}_{carbonation} $$
 
